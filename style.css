@@ -85,11 +85,17 @@ margin-bottom:20px;
 
 /* Main section Styles */
 
+
+
 main{
 max-width: 1140px;
 margin: 0 auto;}
 
+main section{margin-top:130px;}
+
 /* About Section Styles */
+
+
 .about{
       padding: 130px;
       border-radius: 10px;
@@ -97,9 +103,26 @@ margin: 0 auto;}
        margin: 130px 0;
 }
 
-.about-info-container{display: flex;
+.about-info-container{
+      
+      display: flex;
 justify-content: space-around;}
 
 .about-info{text-align:center;}
 
+
+/* Skills related styles */
+
+
+
 #what-i-do-description{padding: 30px 150px;}
+
+.skills-container{display: flex;}
+
+
+.skill{padding: 30px;
+   border-radius: 5px;
+   background:#fff;
+  box-shadow: 0px 6px 50px 0px rgba(0, 0, 0,0.06);}
+
+  .skill-description{color:#757575;}
