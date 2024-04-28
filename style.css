@@ -68,11 +68,13 @@ font-weight: 700;}
 
 .banner .profile-pic{width: 500px;}
 
-.banner-greeting{font-size: 45px;
+.banner-greeting{
+      font-size: 45px;
       color:#474747;margin-bottom: 0;}
 
 .banner-title{
-font-size: 85px;font-weight: 700;
+font-size: 85px;
+font-weight: 700;
 margin-top: 5px;
 margin-bottom:20px;
 }
@@ -83,7 +85,9 @@ margin-bottom:20px;
 
 /* Main section Styles */
 
-
+main{
+max-width: 1140px;
+margin: 0 auto;}
 
 /* About Section Styles */
 .about{
@@ -92,3 +96,10 @@ margin-bottom:20px;
       background:#e3aa82;
        margin: 130px 0;
 }
+
+.about-info-container{display: flex;
+justify-content: space-around;}
+
+.about-info{text-align:center;}
+
+#what-i-do-description{padding: 30px 150px;}
